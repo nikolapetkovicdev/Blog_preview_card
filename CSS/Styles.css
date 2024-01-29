@@ -97,7 +97,7 @@ h1 {
 /* Prilagodba na mobilnim uređajima */
 @media only screen and (max-width: 767px) {
     .main-container {
-        width: 90%; /* Prilagodba širine na mobilnim uređajima */
-        margin: 10%; /* Prilagodba margina za centriranje */
+        width: 100%; /* Prilagodba širine na mobilnim uređajima */
+        margin: 20%; /* Prilagodba margina za centriranje */
     }
 }
