@@ -1,0 +1,103 @@
+
+@import url("fonts/Figtree-Italic-VariableFont_wght.ttf");
+@import url("fonts/Figtree-VariableFont_wght.ttf");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree' , sans-serif;
+}
+
+.main-container:hover .content h1 {
+    color: hsl(47, 88%, 63%);
+}
+
+.main-container:hover {
+    box-shadow: 16px 16px 0px hsl(0, 0%, 7%);
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    padding-bottom: 1rem;
+}
+
+.main-container {
+    position: relative;
+    margin: 10% auto;
+    padding: 20px;
+    width: 360px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+    transition: box-shadow 0.3s ease;
+}
+
+.content {
+    position: relative;
+    padding: 0;
+    z-index: 1;
+
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 8px;
+    max-width: 22%;
+    margin: 20px 0 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.date {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.quote {
+    color: hsl(0, 0%, 50%);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.author-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 10px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.avatar {
+    width: 2rem;
+}
+
+.ilustration {
+    border-radius: 8px;
+    width: 100%;
+}
+
+/* Prilagodba na mobilnim uređajima */
+@media only screen and (max-width: 767px) {
+    .main-container {
+        width: 100%; /* Prilagodba širine na mobilnim uređajima */
+        margin: 5%; /* Prilagodba margina za centriranje */
+    }
+}
