@@ -98,6 +98,6 @@ h1 {
 @media only screen and (max-width: 767px) {
     .main-container {
         width: 85%; /* Prilagodba širine na mobilnim uređajima */
-        margin: 10%; /* Prilagodba margina za centriranje */
+        margin: 5% auto; /* Prilagodba margina za centriranje */
     }
 }
